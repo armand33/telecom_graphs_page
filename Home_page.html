@@ -67,6 +67,7 @@
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#sknet-section" class="nav-link">SciKit Network</a></li>
                 <li><a href="#torchkge-section" class="nav-link">TorchKGE</a></li>
+                <li><a href="#vitalwiki-section" class="nav-link">Vital Wikipedia</a></li>
                 <li><a href="#wikidatasets-section" class="nav-link">WikiDataSets</a></li>
                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
               </ul>
@@ -117,11 +118,28 @@
       </div>
     </div>
 
-    <div class="site-section bg-light" id="wikidatasets-section">
+    <div class="site-section bg-light" id="vitalwiki-section">
+
+      <div class="container">
+        <div class="row mb-5 site-section">
+
+          <div class="col-12 text-center">
+            <h2 class="text-black">Vital Wikipedia</h2>
+            <p class="mb-4">Top 10,012 articles of Wikipedia extracted from the level 4 of this <a href="https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/4">page</a> in November 2019.</p>
+            <p>Adjacency matrix contains hyperlinks while the biadjacency one contains article-stems (stemmed using Porter Stemmer, retaining only stems used by at least 2 articles)</p>
+            <h2>
+              <a href="datasets/vital_wikipedia.zip" download="" class="fa fa-download"></a>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section" id="wikidatasets-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
-            <h2 class="section-title mb-3">WikiDataSets</h2>
+            <h2 class="text-black">WikiDataSets</h2>
             <p>We provide here topical subsets of WikiData. Those datasets were assembled using the <a href="https://pypi.org/project/wikidatasets/">WikiDataSets</a> python library.</p>
             <p>Please consider citing our <a href="https://arxiv.org/abs/1906.04536">paper</a> if you find this useful in your research.</p>
             <p>Details of the project :</p>
@@ -142,7 +160,7 @@
               <div>
                 <h3>Labels dictionary</h3>
                 <p>Labels of all entities in the 23rd April 2019 dump.</p>
-                <p><a href="WikiDataSets/labels.tar.gz" download="">Download</a></p>
+                <p><a href="datasets/WikiDataSets/labels.tar.gz" download="">Download</a></p>
               </div>
             </div>
           </div>
@@ -155,7 +173,7 @@
               <div>
                 <h3>Animals</h3>
                 <p>Subgraph of WikiData containing only animal species.</p>
-                <p><a href="WikiDataSets/animals.tar.gz" download="">Download</a></p>
+                <p><a href="datasets/WikiDataSets/animals.tar.gz" download="">Download</a></p>
               </div>
             </div>
           </div>
@@ -168,7 +186,7 @@
               <div>
                 <h3>Companies</h3>
                 <p>Subgraph of WikiData containing only companies.</p>
-                <p><a href="WikiDataSets/companies.tar.gz" download="">Download</a> </p>
+                <p><a href="datasets/WikiDataSets/companies.tar.gz" download="">Download</a> </p>
               </div>
             </div>
           </div>
@@ -182,7 +200,7 @@
               <div>
                 <h3>Countries</h3>
                 <p>Subgraph of WikiData containing only countries.</p>
-                <p><a href="WikiDataSets/countries.tar.gz" download="">Download</a></p>
+                <p><a href="datasets/WikiDataSets/countries.tar.gz" download="">Download</a></p>
               </div>
             </div>
           </div>
@@ -195,7 +213,7 @@
               <div>
                 <h3>Films</h3>
                 <p>Subgraph of WikiData containing only films.</p>
-                <p><a href="WikiDataSets/films.tar.gz" download="">Download</a></p>
+                <p><a href="datasets/WikiDataSets/films.tar.gz" download="">Download</a></p>
               </div>
             </div>
           </div>
@@ -209,7 +227,7 @@
               <div>
                 <h3>Humans</h3>
                 <p>Subgraph of WikiData containing only humans.</p>
-                <p><a href="WikiDataSets/humans.tar.gz" download="">Download</a></p>
+                <p><a href="datasets/WikiDataSets/humans.tar.gz" download="">Download</a></p>
                 <p><a href="human_graph.html" target="_blank">Sample Visualization</a></p>
               </div>
             </div>
@@ -220,7 +238,7 @@
       </div>
     </div>
 
-    <div class="site-section" id="contact-section">
+    <div class="site-section bg-light" id="contact-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
