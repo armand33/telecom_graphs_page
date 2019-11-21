@@ -1,2 +1,2 @@
-# telecom_graphs_page
+# Télécom graphs page
 https://graphs.telecom-paristech.fr
