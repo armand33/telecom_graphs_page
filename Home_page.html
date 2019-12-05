@@ -67,7 +67,7 @@
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#sknet-section" class="nav-link">SciKit Network</a></li>
                 <li><a href="#torchkge-section" class="nav-link">TorchKGE</a></li>
-                <li><a href="#vitalwiki-section" class="nav-link">Vital Wikipedia</a></li>
+                <li><a href="#wikilinks-section" class="nav-link">WikiLinks</a></li>
                 <li><a href="#wikidatasets-section" class="nav-link">WikiDataSets</a></li>
                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
               </ul>
@@ -118,24 +118,47 @@
       </div>
     </div>
 
-    <div class="site-section bg-light" id="vitalwiki-section">
-
+    <div class="site-section bg-light" id="wikilinks-section">
       <div class="container">
-        <div class="row mb-5 site-section">
-
+        <div class="row mb-5">
           <div class="col-12 text-center">
-            <h2 class="text-black">Vital Wikipedia</h2>
-            <p class="mb-4">Top 10,012 articles of Wikipedia extracted from <a href="https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/4">Wikipedia Vitals</a> in November 2019.</p>
-            <p>Article titles, categories, hypertext links between articles and words used in the summary of each article.</p>
-            <h2>
-              <a href="datasets/vital_wikipedia.zip" download="" class="fa fa-download"></a>
-            </h2>
+            <h2 class="text-black">WikiLinks</h2>
+            <p>We provide subsets of the hyperlink graph of Wikipedia along with the corresponding article titles and categories.</p>
           </div>
         </div>
-      </div>
-    </div>
+        <div class="row align-items-stretch">
 
-    <div class="site-section" id="wikidatasets-section">
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" >
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-heartbeat"></span></span>
+              </div>
+              <div>
+                <h3>Vital Wikipedia</h3>
+                <p>Top 10,012 articles of Wikipedia extracted from <a href="https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/4">Wikipedia Vitals</a> in November 2019.</p>
+                <p><a href="datasets/vital_wikipedia.zip" download="">Download</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-people"></span></span>
+              </div>
+              <div>
+                <h3>Wikipedia Humans</h3>
+                <p>Hyperlinks between  <a href="https://www.wikidata.org/wiki/Q5">humans</a> on Wikipedia and links between humans and other articles (data from 2016).</p>
+                <p><a href="datasets/wikipedia_humans.zip" download="">Download</a></p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+
+
+    <div class="site-section bg-white" id="wikidatasets-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
