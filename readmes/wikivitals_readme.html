@@ -1,0 +1,37 @@
+<head>
+    <title>WikiVitals ReadMe</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="../images/telecom.png"/>
+</head>
+
+
+<body>
+<p>Wikivitals</p>
+
+<p>
+    Vital articles of Wikipedia.<br>
+    See <a href="https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/4">https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/4</a>
+    <br>
+    November 2019
+</p>
+
+<p>
+    10,012 nodes<br>
+    792,091 edges in the graph of links<br>
+    995,919 edges in the bipartie graph articles-words
+</p>
+<p>
+    Files:<br>
+    * adjacency.tsv : List of edges (article, article)<br>
+    * biadjacency.tsv : List of edges (article, word used in summary, count)<br>
+    * names.tsv : Titles of articles<br>
+    * names_col.tsv : Words (stems)<br>
+    * cagetories.tsv : Categories of articles (hierarchical)<br>
+
+</p>
+<p>
+    Note:<br>
+    Stems are obtained using Porter Stemmer, retaining only stems used by at least 2 articles.
+</p>
+
+</body>
